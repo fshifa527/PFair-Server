@@ -1,0 +1,49 @@
+-Framework:  Express js 
+        CORS(cross origin resource sharing) npm i cors
+        DOTENV(to load .env file contents to process.env )npm i dotenv
+
+-Software development Architecture/patterns
+
+*MVC
+ &
+*MVT
+
+=>MongoDB
+    -non-relational no-sql doc based open source dbmc
+    -doc:values are atored as doc where it uses key-value pair structure/json doc
+    -scalable
+    -schemaless
+    -faster
+
+
+    MongpDB      |      MySQL
+-----------------------------------------
+    Database            Database
+    Collection          Table
+    Document            Tuple/Row/Entry
+    Field               Column
+    _id key             Primary key
+
+
+
+-Comparison Operators
+ $eq
+ $gt
+ $lt 
+ $lte
+ $ne 
+
+ -Logical Operators
+
+  $and 
+  $or
+  $not 
+
+
+    -Mongoose
+
+
+context
+ provides a way to pass Data
+  
+  const MyContext=
